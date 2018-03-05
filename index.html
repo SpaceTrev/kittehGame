@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kitteh Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container" id="bckgrnd">
+        <div class="jumbotron text-center">
+            <div class="container text-primary">
+                <h1>Kittehh Game</h1>
+                <h2>Click The Correct Combination of Kittens To Add Up To This Rounds Final Score</h2>
+                <br>
+                    <h4 class="text-success">Click Any Kitten To Begin! ^.^</h4>
+
+            </div>
+        </div>
+        <div class="row text-center text-primary" id="rcontent">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-primary">
+                        <h2 class="text-primary text-center">The Score To Win This Round</h2>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="text-success" id='random-number'></h3>
+
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <strong><p id="current-score"></p></strong>
+                    </div>
+
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body text-success">
+                        <strong>Kitten Buttons: </strong>
+                        <div>
+                            <img class="kittehBtn" id="kitten1" src="assets/images/kitteh.png" alt="firstKitteh">
+                            <img class="kittehBtn" id="kitten2" src="assets/images/kitteh1.jpg" alt="kittehOne">
+                            <img class="kittehBtn" id="kitten3" src="assets/images/kittehGrump.jpg" alt="grumpCat">
+                            <img class="kittehBtn" id="kitten4" src="assets/images/kittehBrit.jpg" alt="BritKit">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <ul style = "list-style-type: none;">
+                            <li><strong id="win-counter"></strong></li>
+                            <li><strong id="loss-counter"></strong></li>
+                        </ul>
+                       
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>

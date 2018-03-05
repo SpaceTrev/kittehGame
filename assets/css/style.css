@@ -1,0 +1,11 @@
+body {
+    background-image: url("../images/woah.jpg");
+}
+#bckgrnd {
+    background-image: url("../images/th.jpg")
+}
+.kittehBtn {
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
