@@ -40,10 +40,14 @@ $(document).ready(function() {
       wins++;
       console.log('you guessed right');
       randomNumber = getRandomArbitraryInt(1, 90);
+      generateRandomNum();
+      counter = 0;
     } else {
      losses++;
       console.log('you went over');
       randomNumber = getRandomArbitraryInt(1, 90);
+      generateRandomNum();
+      counter = 0;
     }
     var html = "<p>Wins: " + wins + "</p>";
     document.querySelector("#win-counter").innerHTML = html;
@@ -52,5 +56,5 @@ $(document).ready(function() {
     var html3 = "<p>Current Score: " + counter + "</p>";
     document.querySelector("#current-score").innerHTML = html3;
   })
-
+  
 });
